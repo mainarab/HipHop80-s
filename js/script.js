@@ -25,6 +25,20 @@ window.addEventListener("scroll", mudarHeader);
 
 
 
+const menu = document.querySelector(".navegacao");
+const abrir = document.getElementById("menuHamburguer");
+const fechar = document.getElementById("sairMenu");
 
+abrir.addEventListener("click", () => {
+  menu.classList.add("ativo");
+  abrir.classList.add("esconder");
+  fechar.classList.add("ativo");
+});
+
+fechar.addEventListener("click", () => {
+  menu.classList.remove("ativo");
+  abrir.classList.remove("esconder");
+  fechar.classList.remove("ativo");
+});
 
 
