@@ -23,8 +23,5 @@ function mudarHeader(){
 
 window.addEventListener("scroll", mudarHeader);
 
-
-
-
-
-
+let slide = document.querySelector("#img1")
+gsap.fromTo(slide, { x: -500,},{x: 500, duration: 10});
