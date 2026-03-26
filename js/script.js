@@ -31,5 +31,22 @@ const imagem2 = document.querySelector("#img2")
 
 gsap.fromTo(imagem2, {opacity: 0}, {opacity:1, duration:10, })
 
+const menu = document.querySelector(".navegacao");
+const abrir = document.getElementById("menuHamburguer");
+const fechar = document.getElementById("sairMenu");
 
+abrir.addEventListener("click", () => {
+  menu.classList.add("ativo");
+  abrir.classList.add("esconder");
+  fechar.classList.add("ativo");
+});
+
+fechar.addEventListener("click", () => {
+  menu.classList.remove("ativo");
+  abrir.classList.remove("esconder");
+  fechar.classList.remove("ativo");
+});
+
+let slide = document.querySelector("#img1")
+gsap.fromTo(slide, { x: -500,},{x: 500, duration: 10});
 

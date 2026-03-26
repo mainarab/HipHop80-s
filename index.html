@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<<<<<<< HEAD
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+=======
+
+>>>>>>> 787752f709b5de6fdd2fc23c2489365f12bc7fc1
     <title>Hip Hop 80'sp</title>
   </head>
   <body>
@@ -14,13 +19,20 @@
           <img class="logo" src="./img/hiphoplogo.png" alt="logo" />
         </a>
 
-        <nav class="navegacao">
+        <nav class="navegacao" id="menu">
           <ul>
-            <li><a href="#sobre"></a>Sobre o evento</li>
-            <li><a href="#local"></a>Localização</li>
-            <li><a href="#contato"></a>Contato</li>
+            <li><a href="#sobre" class="link">Sobre o evento</a></li>
+            <li><a href="#local" class="link">Localização</a></li>
+            <li><a href="#contato" class="link">Contato</a></li>
           </ul>
         </nav>
+
+        <img
+          src="./img/menuHamburguer.svg"
+          alt="menu hamburguer"
+          id="menuHamburguer"
+        />
+        <img src="./img/sairMenu.svg" alt="icone sair" id="sairMenu" />
       </div>
     </header>
 
@@ -38,7 +50,7 @@
           src="./img/trem.png"
           alt="imagem de um trem com grafite"
           class="animacao"
-          id="imagem1"
+          id="img1"
         />
       </section>
 
@@ -81,7 +93,6 @@
           </ul>
         </section>
       </div>
-      
     </main>
 
     <footer class="footer" id="contato">
