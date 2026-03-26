@@ -149,12 +149,66 @@ main {
     
 }
 
-.terceira, .entrada{
-    font-size: 32px;
+.event-section-wrapper {
+  width: 100%;
+  margin-top: 40px;
 }
 
-.terceira>p{
-    font-size: 24px;
+.event-top-bar {
+  background-color: #c7bdbd;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.event-top-bar p {
+  color: #000;
+  font-weight: bold;
+  margin: 2px 0;
+  line-height: 1.2;
+}
+
+.event-bg {
+  background-image: url(../img/fundo-info-footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60px;
+}
+
+.event-content {
+  background-color: #c7bdbd;
+  border-radius: 0px 0px 15px 15px;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.event-content h3 {
+  text-align: center;
+  font-family: "Bangers", system-ui;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.event-content-columns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.event-column ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.event-column li {
+  margin: 2px 0;
+  line-height: 1.2;
 }
 
 .quarta{
@@ -176,6 +230,7 @@ main {
   background-color: #5B9EF7;
 align-items: center;
 justify-content: space-around;
+margin-top: 40px;
 }
 
 
