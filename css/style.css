@@ -257,22 +257,6 @@ margin-top: 40px;
   text-align: center;
 }
 
-
-
-
-.slide {
-  transform: translateX(-100px);
-  opacity: 0;
-  animation: deslizar 1s ease forwards;
-}
-
-@keyframes deslizar {
-  to {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-
 .animacao:hover {
   transition: 0.5s;
   transform: scale(1);
