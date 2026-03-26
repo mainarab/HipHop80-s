@@ -23,8 +23,13 @@ function mudarHeader(){
 
 window.addEventListener("scroll", mudarHeader);
 
+const logo = document.querySelector(".logo")
 
+gsap.fromTo(logo, {y: -500}, {y: 0, ease: "bounce.out", duration:2, })
 
+const imagem2 = document.querySelector("#img2")
+
+gsap.fromTo(imagem2, {opacity: 0}, {opacity:1, duration:10, })
 
 
 
