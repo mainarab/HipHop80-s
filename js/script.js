@@ -25,6 +25,7 @@ window.addEventListener("scroll", mudarHeader);
 
 
 
+
 const menu = document.querySelector(".navegacao");
 const abrir = document.getElementById("menuHamburguer");
 const fechar = document.getElementById("sairMenu");
@@ -41,4 +42,6 @@ fechar.addEventListener("click", () => {
   fechar.classList.remove("ativo");
 });
 
+let slide = document.querySelector("#img1")
+gsap.fromTo(slide, { x: -500,},{x: 500, duration: 10});
 
