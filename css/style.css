@@ -284,24 +284,6 @@ margin-top: 40px;
     display: flex;
   }
  
-
-  .navegacao ul {
-    display: none;
-    flex-direction: column;
-    gap: 0;
-    background-color: #5b9ef7;
-    width: 100%;
-    padding: 10px 0;
-  }
- 
-  .navegacao ul.aberto {
-    display: flex;
-  }
- 
-  .navegacao > ul > li {
-    padding: 12px 20px;
-    border-radius: 0;
-  }
  
   .primeira {
     flex-direction: column; 
