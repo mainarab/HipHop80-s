@@ -27,9 +27,9 @@ const logo = document.querySelector(".logo")
 
 gsap.fromTo(logo, {y: -500}, {y: 0, ease: "bounce.out", duration:2, })
 
-const imagem2 = document.querySelector("#img2")
+const imagem2 = document.querySelector("#img1")
 
-gsap.fromTo(imagem2, {opacity: 0}, {opacity:1, duration:10, })
+gsap.fromTo(imagem2, {opacity: 0}, {opacity:1, duration:8, })
 
 const menu = document.querySelector(".navegacao");
 const abrir = document.getElementById("menuHamburguer");
@@ -47,6 +47,6 @@ fechar.addEventListener("click", () => {
   fechar.classList.remove("ativo");
 });
 
-let slide = document.querySelector("#img1")
-gsap.fromTo(slide, { x: -500,},{x:0, duration: 10});
+let slide = document.querySelector("#img2")
+gsap.fromTo(slide, { x: -800,},{x:0, duration: 7});
 
