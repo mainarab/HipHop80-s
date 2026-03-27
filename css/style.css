@@ -263,6 +263,133 @@ margin-top: 40px;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
+/* mobile*/
+@media (max-width: 900px) {
+ 
+  body {
+    margin-top: 80px; 
+  }
+ 
+  main {
+    padding: 0 15px;
+  }
+ 
+ 
+  .header > div {
+    padding: 10px 15px;
+  }
+ 
+
+  .btn-menu {
+    display: flex;
+  }
+ 
+
+  .navegacao ul {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    background-color: #5b9ef7;
+    width: 100%;
+    padding: 10px 0;
+  }
+ 
+  .navegacao ul.aberto {
+    display: flex;
+  }
+ 
+  .navegacao > ul > li {
+    padding: 12px 20px;
+    border-radius: 0;
+  }
+ 
+  .primeira {
+    flex-direction: column; 
+    border-radius: 10px;
+    width: 100%;
+  }
+ 
+  .primeira > img {
+    width: 100%;        
+    border-radius: 10px 10px 0 0; 
+  }
+ 
+  .primeira > div {
+    width: 100%;        
+    height: auto;       
+    border-radius: 0 0 10px 10px;
+  }
+ 
+  
+  .segunda > div {
+    flex-direction: column; 
+  }
+ 
+  .segunda > p {
+    width: 100%;
+    height: auto;
+  }
+ 
+  .segunda > img {
+    width: 100%;
+    height: auto;
+    padding-left: 0; 
+  }
+ 
+  /* ── Seção terceira ── */
+  .terceira {
+    flex-direction: column; 
+    font-size: 22px;        
+  }
+ 
+  .terceira > p {
+    font-size: 18px;
+  }
+ 
+  .footer {
+    flex-direction: column; 
+    gap: 20px;
+    padding: 20px 15px;
+    text-align: center;
+  }
+ 
+  .contato-lado {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+ 
+  .redes nav ul {
+    justify-content: center;
+  }
+}
+ 
+
+@media (max-width: 480px) {
+ 
+  .logo {
+    width: 100px; 
+  }
+ 
+  .titulo {
+    font-size: 1.5rem;
+  }
+ 
+  .terceira,
+  .entrada {
+    font-size: 18px;
+  }
+ 
+  .segunda {
+    padding: 20px 10px;
+  }
+ 
+  .quarta ul {
+    gap: 12px;
+  }
+}
+ 
+
 @media (max-width: 900px){
   #menuHamburguer,
   #sairMenu {
