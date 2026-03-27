@@ -48,5 +48,5 @@ fechar.addEventListener("click", () => {
 });
 
 let slide = document.querySelector("#img1")
-gsap.fromTo(slide, { x: -500,},{x: 500, duration: 10});
+gsap.fromTo(slide, { x: -500,},{x:0, duration: 10});
 
